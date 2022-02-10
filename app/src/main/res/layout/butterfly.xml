@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView93"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorPrimaryDark"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+
+
+    <ImageSwitcher
+        android:id="@+id/switch42"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginTop="60dp"
+        android:text="Images Switch">
+
+    </ImageSwitcher>
+
+
+    <Button
+        android:id="@+id/button89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="80dp"
+        android:text="Previous" />
+
+
+    <Button
+        android:id="@+id/button90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="500dp"
+        android:text="Next"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learndrawing">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kkk"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/kkk"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+
+                <category android:name="android.intent.category.LAUNCHER"></category>
+
+            </intent-filter>
+
+        </activity>
+
+    <activity android:name=".Intro3"></activity>
+        <activity android:name=".Intro2"></activity>
+        <activity android:name=".Intro1"></activity>
+        <activity android:name=".LearnDrawing2"></activity>
+        <activity android:name=".ThreeDImage"></activity>
+        <activity android:name=".Star"></activity>
+        <activity android:name=".Triangle"></activity>
+        <activity android:name=".StepsIllusions"></activity>
+        <activity android:name=".Ladder"></activity>
+        <activity android:name=".Hole"></activity>
+        <activity android:name=".Stairway"></activity>
+        <activity android:name=".GlassBall"></activity>
+        <activity android:name=".Butterfly"></activity>
+        <activity android:name=".BigBuilding"></activity>
+        <activity android:name=".Hand3d"></activity>
+        <activity android:name=".BasicImage"></activity>
+        <activity android:name=".PortraitImage"></activity>
+        <activity android:name=".Sketch1"></activity>
+        <activity android:name=".Sketch2"></activity>
+        <activity android:name=".Sketch3"></activity>
+        <activity android:name=".Sketch4"></activity>
+        <activity android:name=".Sketch5"></activity>
+        <activity android:name=".Sketch6"></activity>
+        <activity android:name=".Sketch7"></activity>
+        <activity android:name=".Sketch8"></activity>
+        <activity android:name=".Sketch9"></activity>
+        <activity android:name=".Sketch10"></activity>
+        <activity android:name=".Sketch11"></activity>
+        <activity android:name=".Chick"></activity>
+        <activity android:name=".Rose"></activity>
+        <activity android:name=".Sample"></activity>
+        <activity android:name=".Squirrel"></activity>
+        <activity android:name=".Bear"></activity>
+        <activity android:name=".Bird"></activity>
+        <activity android:name=".Bat"></activity>
+        <activity android:name=".Rose1"></activity>
+        <activity android:name=".Giraffe"></activity>
+        <activity android:name=".Elephent"></activity>
+        <activity android:name=".Polobear"></activity>
+        <activity android:name=".AdvanceImage"></activity>
+        <activity android:name=".Face1"></activity>
+        <activity android:name=".Face2"></activity>
+        <activity android:name=".Situation"></activity>
+        <activity android:name=".HairStyle"></activity>
+        <activity android:name=".Ear"></activity>
+        <activity android:name=".Eye"></activity>
+        <activity android:name=".Feat"></activity>
+        <activity android:name=".Leg"></activity>
+        <activity android:name=".Hand"></activity>
+        <activity android:name=".Face3"></activity>
+        <activity android:name=".Face4"></activity>
+        <activity android:name=".Nose"></activity>
+        <activity android:name=".Eye1"></activity>
+        <activity android:name=".Lips"></activity>
+        <activity android:name=".Rating"></activity>
+         <activity android:name=".FeedBack"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

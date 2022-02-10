@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView96"
+        android:layout_width="wrap_content"
+        android:layout_height="234dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/kkk" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="405dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="5dp"
+        android:text="Enjoying How to Learn Drawing ?
+         Tap a star to rate it on google play "
+        android:textColor="@android:color/background_dark"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="410dp" />
+
+    <Button
+        android:id="@+id/button95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="590dp"
+        android:fontFamily="@font/faster_one"
+        android:text="Never"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="220dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/faster_one"
+        android:text="Submit" />
+</FrameLayout>

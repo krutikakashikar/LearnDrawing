@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7D7E7D"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/anton"
+        android:text="How do you draw a hand?"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/arapey_italic"
+        android:text="1)Shape the palm. Use an HB pencil to draw a rectangle slightly longer than a square."
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/arapey_italic"
+        android:text="2)Draw five circles."
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:id="@+id/editText9"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/arapey_italic"
+        android:text="3)Measure and draw the fingers and Find the joints for each finger."
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:id="@+id/editText10"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/arapey_italic"
+        android:text="4)Draw circles at each joint and Draw the thumb."
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:id="@+id/editText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/arapey_italic"
+        android:text="5)Make outlines around the hand."
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="wait a minutes"
+        android:textSize="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shap"
+        android:fontFamily="@font/fugaz_one"
+        android:text="Basic Images"
+        android:textColor="@android:color/background_light"
+        android:textSize="21sp"
+        android:textStyle="normal|bold|italic" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shap"
+        android:fontFamily="@font/fugaz_one"
+        android:text="Portrait Images"
+        android:textColor="@android:color/background_light"
+        android:textSize="21sp"
+        android:textStyle="normal|bold|italic" />
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/ViewPage1"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="130dp">
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/sliderDots"
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/shap"
+        android:fontFamily="@font/fugaz_one"
+        android:text="3D Images"
+        android:textColor="@android:color/background_light"
+        android:textSize="21sp"
+        android:textStyle="normal|bold|italic" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shap"
+        android:fontFamily="@font/fugaz_one"
+        android:text="Advance Images"
+        android:textColor="@android:color/background_light"
+        android:textSize="21sp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="398dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="Improve Your Ideas Here..."
+        android:textColor="#04384A"
+        android:textSize="23dp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shap"
+        android:fontFamily="@font/fugaz_one"
+        android:text="SAMPLE"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="580dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="19sp"
+        android:textStyle="normal|bold|italic"/>
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
